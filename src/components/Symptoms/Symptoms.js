@@ -9,15 +9,7 @@ const Symptoms = () => {
                 <h1 className="symptoms-title">Symptoms</h1>
                 <p className="symptoms-desc">COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization.</p>
                 <div className="symptoms-list">
-                    <div className="most-common">
-                        <h3>Most Common</h3>
-                        <ul>
-                         <li>Fever</li>
-                         <li>Dry cough</li>
-                         <li>Tiredness </li>
-                        </ul>
-                    </div>
-                    <div className="less-common">
+                <div className="less-common">
                     <h3>Less Common</h3>
                         <ul>
                             <li>Aches and pains</li>
@@ -27,6 +19,14 @@ const Symptoms = () => {
                             <li>Headache</li>
                             <li>Loss of taste or smell</li>
                             <li>A rash on skin, or discolouration of fingers or toes</li>
+                        </ul>
+                    </div>
+                    <div className="most-common">
+                        <h3>Most Common</h3>
+                        <ul>
+                         <li>Fever</li>
+                         <li>Dry cough</li>
+                         <li>Tiredness </li>
                         </ul>
                     </div>
                </div>

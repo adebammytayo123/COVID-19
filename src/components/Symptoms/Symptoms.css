@@ -29,10 +29,9 @@
     justify-content: space-between;
     margin-left: 1em;
 }
+.less-common h3,
 .most-common h3 {
-    color: #3c3d3d;
-}
-.less-common h3 {
+    margin-left: -1em;
     color: #3c3d3d;
 }
 ul {
@@ -59,5 +58,8 @@ ul {
     }
     .symptoms-image img {
         width: 100%;
+    }
+    .most-common {
+        margin-top: 1em;
     }
 }
