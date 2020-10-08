@@ -1,0 +1,62 @@
+.symptoms-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+}
+.symptoms-info {
+    display: block;
+    margin-bottom: 1em;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.symptoms-title {
+    color: rgb(247, 126, 105);
+    padding-bottom: 0.7em;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.symptoms-desc {
+    word-spacing: 0.5em;
+    line-height: 1.7em;
+    color: #3c3d3d;
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+.symptoms-list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+}
+.most-common h3 {
+    color: #3c3d3d;
+}
+.less-common h3 {
+    color: #3c3d3d;
+}
+ul {
+    color: #3c3d3d;
+    line-height: 2em;
+}
+.symptoms-image img {
+    height: 500px;
+}
+@media screen and (max-width: 768px) {
+    .symptoms-section {
+        flex-direction: column;
+    }
+    .symptoms-list {
+        flex-direction: column;
+    }
+    .less-common {
+        margin-top: 1em;
+    }
+    .symptoms-info {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .symptoms-image img {
+        width: 100%;
+    }
+}
