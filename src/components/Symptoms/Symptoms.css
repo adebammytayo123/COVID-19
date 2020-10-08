@@ -40,6 +40,7 @@ ul {
     line-height: 2em;
 }
 .symptoms-image img {
+    margin-top: -2em;
     height: 500px;
 }
 @media screen and (max-width: 768px) {

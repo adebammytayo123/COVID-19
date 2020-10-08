@@ -30,17 +30,18 @@
   font-size: 1.2em;
 }
 .learn-more-button {
-    background: rgb(142, 195, 199);
-    border: none;
-    padding: 1.5em;
-    margin-top: 1.5em;
-    border-radius: 30px;
-    text-transform: capitalize;
-    text-align: center;
+  background: rgb(142, 195, 199);
+  border: none;
+  padding: 1.5em;
+  margin-top: 1.5em;
+  border-radius: 30px;
+  text-transform: capitalize;
+  text-align: center;
 }
 .learn-more-button a {
   text-decoration: none;
   color: white;
+  text-align: center;
   font-size: 1.2em;
 }
 .image-container {
