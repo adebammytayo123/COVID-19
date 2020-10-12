@@ -12,14 +12,13 @@ table{
   width: 100%;
   border-collapse: collapse;
   text-align: center;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 td, th{
   border-top: 1px solid white;
   padding: 1em 0;
   text-transform: uppercase;
 }
-  
 th{
   background-color: rgb(245, 167, 153);
 }
@@ -32,7 +31,7 @@ tr:nth-of-type(even) td{
         font-size: 1.5em;
     }
     table {
-        margin-right: 1em;
+        margin-left: -0.7em;
     }
    td, th{
        padding: 0.8em 0.1em;

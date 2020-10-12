@@ -15,7 +15,6 @@ const Dashboard = ({ datas }) => {
           <tr className="table-headers">
             <th>Country</th>
             <th>Active Cases</th>
-            {/* <th>New Cases</th> */}
             <th>Total Cases</th>
             <th>Total Recovered</th>
             <th>Total Deaths</th>
@@ -26,7 +25,6 @@ const Dashboard = ({ datas }) => {
               <tr key={data.country}>
               <td>{data.country}</td>
               <td>{data.active_cases}</td>
-              {/* <td>{data.new_cases}</td> */}
               <td>{data.total_cases}</td>
               <td>{data.total_recovered}</td>
               <td>{data.total_deaths}</td>
