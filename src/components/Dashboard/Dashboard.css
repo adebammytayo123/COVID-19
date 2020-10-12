@@ -31,7 +31,7 @@ tr:nth-of-type(even) td{
         font-size: 1.5em;
     }
     table {
-        margin-left: -0.7em;
+        margin-left: -1em;
     }
    td, th{
        padding: 0.8em 0.1em;
