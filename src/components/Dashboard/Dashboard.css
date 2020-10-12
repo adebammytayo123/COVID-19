@@ -2,3 +2,44 @@
     margin-top: 5em;
     height: 100vh;
 }
+.dashboard-section h1 {
+    color: rgb(70, 70, 70);
+    margin-bottom: 1em;
+    text-align: center;
+    text-transform: capitalize;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  overflow: hidden;
+}
+td, th{
+  border-top: 1px solid white;
+  padding: 1em 0;
+  text-transform: uppercase;
+}
+  
+th{
+  background-color: rgb(245, 167, 153);
+}
+  
+tr:nth-of-type(even) td{
+  background-color: rgb(253, 196, 185);
+}
+@media  screen and (max-width: 768px) {
+    .dashboard-section h1 {
+        font-size: 1.5em;
+    }
+    table {
+        margin-right: 1em;
+    }
+   td, th{
+       padding: 0.8em 0.1em;
+       font-size: 12px;
+   }
+   td {
+       font-size: 1em;
+   }
+}
+  

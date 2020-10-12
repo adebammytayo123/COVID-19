@@ -18,7 +18,7 @@
     text-transform: uppercase;
 }
 .symptoms-desc {
-    word-spacing: 0.5em;
+    word-spacing: 0.em;
     line-height: 1.7em;
     color: #3c3d3d;
     font-size: 1.2em;

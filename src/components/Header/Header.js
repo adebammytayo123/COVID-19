@@ -70,7 +70,7 @@ class Header extends Component {
                             offset={-100}
                             duration={500}
                         >Prevention</Link>
-                       </li>
+                        </li>
                         <li>
                         <Link
                             activeClass="active"
@@ -129,7 +129,7 @@ class Header extends Component {
                         <li>
                         <Link
                             activeClass="active"
-                            to="https://covid19.who.int/?gclid=Cj0KCQjwwuD7BRDBARIsAK_5YhWRodWabYTJr97zbaVKrbQIdwZ6LU78ltO5KgwqQyYZkN7izguHxukaAg6iEALw_wcB"
+                            to="dashboard"
                             spy={true}
                             smooth={true}
                             offset={-270}
