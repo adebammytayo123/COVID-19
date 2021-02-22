@@ -1,25 +1,19 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './DrawerButtonToggle.css';
 
 
-class DrawerButtonTogggle extends Component {
-
-    drawerToggleClick = () => {
-        this.props.toggleClickHandler();
-    }
+const DrawerButtonTogggle = ({toggleClickHandler}) => {
    
 
-    render() {
         return (
             <div>
-                <button className="toggle-btn" onClick={this.drawerToggleClick}>
+                <button className="toggle-btn" onClick={toggleClickHandler}>
                     <div className="toggle-btn-line"></div>
                     <div className="toggle-btn-line"></div>
                     <div className="toggle-btn-line"></div>
                 </button>
             </div>
         )
-    }
 }
 
 export default DrawerButtonTogggle;

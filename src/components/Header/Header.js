@@ -1,28 +1,21 @@
-import React, {Component} from 'react';
+import React, { useState} from 'react';
 import "./Header.css"
 import covid from './covid.png';
 import { Link } from "react-scroll";
 import DrawerButtonTogggle from '../SideDrawer/DrawerButtonTogggle';
-// import PropTypes from 'prop-types';
 
 
 
-class Header extends Component {
+const Header = ()  =>{
 
-    state = {
-        clickContentToggle: false
-    }
+    const [toggleContent, setToggleContent] = useState(false)
 
-    render() {
-        const {clickContentToggle} = this.state
         return (
             <div className="sticky">
                 <nav className="nav">
                     <div className="nav-heading">
                     <div>
-                        <DrawerButtonTogggle toggleClickHandler={()=> this.setState({
-            clickContentToggle: !this.state.clickContentToggle
-        })} />
+                        <DrawerButtonTogggle toggleClickHandler={()=> setToggleContent(!toggleContent)} />
                     </div>
                     <a href="#heading" className="nav-titles">
                       <img className="nav-image" src={covid} alt="" />
@@ -85,7 +78,7 @@ class Header extends Component {
                             <a href="https://covid19.ncdc.gov.ng/contact/">contact</a>
                         </li>
                     </ul>
-                    {clickContentToggle ? ( <ul className="nav-mobile-links">
+                    {toggleContent ? ( <ul className="nav-mobile-links">
                         <li>
                         <Link
                             activeClass="active"
@@ -141,6 +134,5 @@ class Header extends Component {
             </div>
         )
     }
-}
 
 export default Header
